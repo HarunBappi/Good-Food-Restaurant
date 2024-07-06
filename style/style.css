@@ -153,34 +153,48 @@ body {
   align-items: center;
 }
 .footer-contant .footer-image {
-  width: 600px;
+  width: 500px;
 }
 .footer-image img {
-  width: 100%;
+  width: 500px;
 }
-.footer-details{
-    margin-left:75px;
+.footer-details {
+  margin-top: 40px;
 }
 .footer-details .title {
   color: rgb(16, 16, 16);
   font-family: Work Sans;
   font-size: 30px;
-  font-weight:600;
-  line-height:30px;
+  font-weight: 600;
+  line-height: 35px;
   text-align: center;
 }
-.footer-details .description{
-    opacity: 0.6;
-    color: rgb(16, 16, 16);
-    font-family: Work Sans;
-    font-size:15px;
-    font-weight:300;
-    line-height:20px;
-    letter-spacing: 0%;
-    text-align: center;
-    margin-top: 10px;
+.footer-details .description {
+  opacity: 0.6;
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 10px;
 }
-.footer-icon{
-    text-align: center;
-    margin-top: 20px;
+.footer-icon {
+  text-align: center;
+  margin-top: 50px;
+}
+.footer-icon .follow {
+  margin-bottom: 25px;
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+}
+.footer-icon .icons img {
+  width: 40px;
+  height: 49px;
+  margin-left: 15px;
 }
