@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-family: "Work Sans", sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.btn-container {
+  text-align: center;
+  margin-top: 25px;
+}
+.btn {
+  padding: 15px 18px 15px 18px;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 8px;
+  background: rgb(82, 195, 3);
+  cursor: pointer;
+}
+
+/* Start With Style in Hero-Section */
+#hero {
+  height: 653px;
+  background-image: linear-gradient(
+      180deg,
+      rgb(16, 16, 16) -19.5%,
+      rgba(16, 16, 16, 0) 100%
+    ),
+    url("../assets/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#hero .hero-container {
+  width: 700px;
+}
+#hero .hero-container .subtitle {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 450;
+  line-height: 22px;
+  text-align: center;
+  opacity: 0.8;
+}
+#hero .hero-container .title {
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 60px;
+  text-align: center;
+}
+#hero .hero-container .description {
+  margin-top: 20px;
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+  opacity: 0.7;
+}
+/* End With Style In Hero-Section */
+
+/* Start With Style In Card_Section */
+
+#card-box {
+  display: flex;
+  flex-direction: column;
+  width: 950px;
+  height: 600px;
+  background-color: rgb(147, 247, 213);
+  margin: 100px auto;
+}
+#card-box .card-info {
+  margin-top: 15px;
+}
+#card-box .subtitle {
+  opacity: 0.6;
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+#card-box .title {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 45px;
+  text-align: center;
+}
+.card-container {
+  margin-top: 34px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.card {
+  max-width: 301px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.card .card-image {
+  width: 301px;
+}
+.card .card-image img {
+  width: 100%;
+}
+.card .shop-name {
+  padding: 10px 18px 10px 18px;
+  border-radius: 8px;
+  background: rgba(82, 195, 3, 0.15);
+  cursor: pointer;
+}
+.card .description {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+/* End With Style Card-Box Section  */
+
+/* Start With Style Footer Section  */
+
+#footer {
+  width: 965px;
+  margin-left: 195px;
+  background-color: #f1f1f1;
+}
+#footer .footer-contant {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.footer-contant .footer-image {
+  width: 600px;
+}
+.footer-image img {
+  width: 100%;
+}
+.footer-details{
+    margin-left:75px;
+}
+.footer-details .title {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 30px;
+  font-weight:600;
+  line-height:30px;
+  text-align: center;
+}
+.footer-details .description{
+    opacity: 0.6;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size:15px;
+    font-weight:300;
+    line-height:20px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 10px;
+}
+.footer-icon{
+    text-align: center;
+    margin-top: 20px;
+}
