@@ -185,17 +185,23 @@ body {
   margin-top: 50px;
 }
 .footer-icon .follow {
-  margin-bottom: 25px;
   color: rgb(16, 16, 16);
   font-family: Work Sans;
   font-size: 25px;
   font-weight: 500;
   line-height: 30px;
   text-align: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid #C9C9CA;
+  border-top: 1px solid #C9C9CA;
+  margin: 0 15px;
+  padding: 8px 0;
 }
 .footer-icon .icons img {
   width: 40px;
   height: 49px;
   margin-left: 15px;
   cursor: pointer;
+  margin-top: 20px;
 }
+
